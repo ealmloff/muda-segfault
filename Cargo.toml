@@ -1,0 +1,9 @@
+[package]
+name = "muda-segfault"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+tao = { version = "0.24", default-features = false, features = [ "rwh_05" ] }
+muda = "0.11.3"
